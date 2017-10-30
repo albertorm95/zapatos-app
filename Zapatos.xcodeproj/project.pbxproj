@@ -54,14 +54,38 @@
 		3B19CBF41FA6DA000065DB51 /* Zapatos */ = {
 			isa = PBXGroup;
 			children = (
-				3B19CBF51FA6DA000065DB51 /* AppDelegate.swift */,
-				3B19CBF71FA6DA000065DB51 /* ViewController.swift */,
-				3B19CBF91FA6DA000065DB51 /* Main.storyboard */,
+				3B19CC081FA6DA3E0065DB51 /* View */,
+				3B19CC071FA6DA220065DB51 /* Controller */,
+				3B19CC091FA6DA490065DB51 /* Model */,
 				3B19CBFC1FA6DA000065DB51 /* Assets.xcassets */,
 				3B19CBFE1FA6DA000065DB51 /* LaunchScreen.storyboard */,
 				3B19CC011FA6DA000065DB51 /* Info.plist */,
 			);
 			path = Zapatos;
+			sourceTree = "<group>";
+		};
+		3B19CC071FA6DA220065DB51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B19CBF51FA6DA000065DB51 /* AppDelegate.swift */,
+				3B19CBF71FA6DA000065DB51 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B19CC081FA6DA3E0065DB51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B19CBF91FA6DA000065DB51 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B19CC091FA6DA490065DB51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,10 +300,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Zapatos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = albertorm95.Zapatos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertorm95.Zapatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,10 +314,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Zapatos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = albertorm95.Zapatos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertorm95.Zapatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
