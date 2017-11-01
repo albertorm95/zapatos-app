@@ -11,10 +11,19 @@
 		3B19CBFB1FA6DA000065DB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B19CBF91FA6DA000065DB51 /* Main.storyboard */; };
 		3B19CBFD1FA6DA000065DB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B19CBFC1FA6DA000065DB51 /* Assets.xcassets */; };
 		3B19CC001FA6DA000065DB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B19CBFE1FA6DA000065DB51 /* LaunchScreen.storyboard */; };
+		3B3F19781FAA93CD000B9CBC /* adidas.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3F19771FAA93CD000B9CBC /* adidas.png */; };
 		3BE8F6CE1FA9900400CC2ACC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE8F6CD1FA9900400CC2ACC /* LoginViewController.swift */; };
 		3BE8F6D01FA9907B00CC2ACC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE8F6CF1FA9907B00CC2ACC /* TableViewController.swift */; };
 		3BE8F6D21FA9909700CC2ACC /* TableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE8F6D11FA9909700CC2ACC /* TableCellViewController.swift */; };
 		3BE8F6D41FA990DD00CC2ACC /* BoughtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE8F6D31FA990DD00CC2ACC /* BoughtViewController.swift */; };
+		3BE8F6D71FA9951400CC2ACC /* ZapatoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE8F6D51FA9951400CC2ACC /* ZapatoTableViewCell.swift */; };
+		3BE8F6D81FA9951400CC2ACC /* ZapatoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6D61FA9951400CC2ACC /* ZapatoTableViewCell.xib */; };
+		3BE8F6E41FAA92D700CC2ACC /* nike.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6DD1FAA92D700CC2ACC /* nike.png */; };
+		3BE8F6E51FAA92D700CC2ACC /* skechers.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6DE1FAA92D700CC2ACC /* skechers.png */; };
+		3BE8F6E61FAA92D700CC2ACC /* newbalance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6DF1FAA92D700CC2ACC /* newbalance.jpg */; };
+		3BE8F6E71FAA92D700CC2ACC /* dc.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6E01FAA92D700CC2ACC /* dc.png */; };
+		3BE8F6E91FAA92D700CC2ACC /* vans.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6E21FAA92D700CC2ACC /* vans.png */; };
+		3BE8F6EA1FAA92D700CC2ACC /* converse.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6E31FAA92D700CC2ACC /* converse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +33,19 @@
 		3B19CBFC1FA6DA000065DB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B19CBFF1FA6DA000065DB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B19CC011FA6DA000065DB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3F19771FAA93CD000B9CBC /* adidas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adidas.png; path = Zapatos/Imgs/adidas.png; sourceTree = SOURCE_ROOT; };
 		3BE8F6CD1FA9900400CC2ACC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BE8F6CF1FA9907B00CC2ACC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3BE8F6D11FA9909700CC2ACC /* TableCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellViewController.swift; sourceTree = "<group>"; };
 		3BE8F6D31FA990DD00CC2ACC /* BoughtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoughtViewController.swift; sourceTree = "<group>"; };
+		3BE8F6D51FA9951400CC2ACC /* ZapatoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZapatoTableViewCell.swift; sourceTree = "<group>"; };
+		3BE8F6D61FA9951400CC2ACC /* ZapatoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZapatoTableViewCell.xib; sourceTree = "<group>"; };
+		3BE8F6DD1FAA92D700CC2ACC /* nike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nike.png; path = Zapatos/Imgs/nike.png; sourceTree = SOURCE_ROOT; };
+		3BE8F6DE1FAA92D700CC2ACC /* skechers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skechers.png; path = Zapatos/Imgs/skechers.png; sourceTree = SOURCE_ROOT; };
+		3BE8F6DF1FAA92D700CC2ACC /* newbalance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newbalance.jpg; path = Zapatos/Imgs/newbalance.jpg; sourceTree = SOURCE_ROOT; };
+		3BE8F6E01FAA92D700CC2ACC /* dc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dc.png; path = Zapatos/Imgs/dc.png; sourceTree = SOURCE_ROOT; };
+		3BE8F6E21FAA92D700CC2ACC /* vans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vans.png; path = Zapatos/Imgs/vans.png; sourceTree = SOURCE_ROOT; };
+		3BE8F6E31FAA92D700CC2ACC /* converse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = converse.png; path = Zapatos/Imgs/converse.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 		3B19CBF41FA6DA000065DB51 /* Zapatos */ = {
 			isa = PBXGroup;
 			children = (
+				3BE8F6DC1FAA92C100CC2ACC /* imgs */,
 				3B19CC081FA6DA3E0065DB51 /* View */,
 				3B19CC071FA6DA220065DB51 /* Controller */,
 				3B19CC091FA6DA490065DB51 /* Model */,
@@ -85,6 +104,7 @@
 		3B19CC081FA6DA3E0065DB51 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3BE8F6D91FA9951F00CC2ACC /* Cells */,
 				3B19CBF91FA6DA000065DB51 /* Main.storyboard */,
 			);
 			path = View;
@@ -95,6 +115,30 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3BE8F6D91FA9951F00CC2ACC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3BE8F6D51FA9951400CC2ACC /* ZapatoTableViewCell.swift */,
+				3BE8F6D61FA9951400CC2ACC /* ZapatoTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3BE8F6DC1FAA92C100CC2ACC /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F19771FAA93CD000B9CBC /* adidas.png */,
+				3BE8F6E31FAA92D700CC2ACC /* converse.png */,
+				3BE8F6E01FAA92D700CC2ACC /* dc.png */,
+				3BE8F6DF1FAA92D700CC2ACC /* newbalance.jpg */,
+				3BE8F6DD1FAA92D700CC2ACC /* nike.png */,
+				3BE8F6DE1FAA92D700CC2ACC /* skechers.png */,
+				3BE8F6E21FAA92D700CC2ACC /* vans.png */,
+			);
+			name = imgs;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +199,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE8F6E71FAA92D700CC2ACC /* dc.png in Resources */,
+				3BE8F6E91FAA92D700CC2ACC /* vans.png in Resources */,
 				3B19CC001FA6DA000065DB51 /* LaunchScreen.storyboard in Resources */,
+				3BE8F6E41FAA92D700CC2ACC /* nike.png in Resources */,
+				3B3F19781FAA93CD000B9CBC /* adidas.png in Resources */,
+				3BE8F6E61FAA92D700CC2ACC /* newbalance.jpg in Resources */,
+				3BE8F6EA1FAA92D700CC2ACC /* converse.png in Resources */,
 				3B19CBFD1FA6DA000065DB51 /* Assets.xcassets in Resources */,
+				3BE8F6E51FAA92D700CC2ACC /* skechers.png in Resources */,
+				3BE8F6D81FA9951400CC2ACC /* ZapatoTableViewCell.xib in Resources */,
 				3B19CBFB1FA6DA000065DB51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +222,7 @@
 			files = (
 				3BE8F6CE1FA9900400CC2ACC /* LoginViewController.swift in Sources */,
 				3BE8F6D01FA9907B00CC2ACC /* TableViewController.swift in Sources */,
+				3BE8F6D71FA9951400CC2ACC /* ZapatoTableViewCell.swift in Sources */,
 				3B19CBF61FA6DA000065DB51 /* AppDelegate.swift in Sources */,
 				3BE8F6D41FA990DD00CC2ACC /* BoughtViewController.swift in Sources */,
 				3BE8F6D21FA9909700CC2ACC /* TableCellViewController.swift in Sources */,
