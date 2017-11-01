@@ -45,18 +45,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgu-Kq-K2m">
-                                <rect key="frame" x="102" y="306" width="122" height="30"/>
+                                <rect key="frame" x="16" y="64" width="122" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="TABLEVIEW"/>
                                 <connections>
                                     <segue destination="SIL-Xb-pZZ" kind="show" id="kqA-9w-PQD"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oEL-7h-gWD">
+                                <rect key="frame" x="0.0" y="102" width="375" height="565"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2H8-KP-Fz2"/>
                     </view>
                     <navigationItem key="navigationItem" id="bTJ-Ov-OaM"/>
+                    <connections>
+                        <outlet property="zapatosTableView" destination="oEL-7h-gWD" id="QWB-6i-kPZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEm-Wm-Pna" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -157,6 +165,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="kqA-9w-PQD"/>
         <segue reference="Oqt-6v-ZYY"/>
     </inferredMetricsTieBreakers>
 </document>
