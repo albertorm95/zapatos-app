@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zapatos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,16 +36,21 @@
             </objects>
             <point key="canvasLocation" x="-62" y="133"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="AnC-Re-bNp">
             <objects>
-                <viewController id="AEr-TM-KE5" sceneMemberID="viewController">
+                <viewController id="AEr-TM-KE5" customClass="TableViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XEr-GC-J8z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nLY-5u-cYA">
+                                <rect key="frame" x="0.0" y="114" width="375" height="553"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgu-Kq-K2m">
-                                <rect key="frame" x="102" y="306" width="122" height="30"/>
+                                <rect key="frame" x="16" y="76" width="122" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="TABLEVIEW"/>
                                 <connections>
@@ -57,15 +62,18 @@
                         <viewLayoutGuide key="safeArea" id="2H8-KP-Fz2"/>
                     </view>
                     <navigationItem key="navigationItem" id="bTJ-Ov-OaM"/>
+                    <connections>
+                        <outlet property="zapatosTableView" destination="nLY-5u-cYA" id="3Fv-U0-0uZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEm-Wm-Pna" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1808.8" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Bought View Controller-->
         <scene sceneID="ghU-I7-Zax">
             <objects>
-                <viewController id="APH-Ju-hSB" sceneMemberID="viewController">
+                <viewController id="APH-Ju-hSB" customClass="BoughtViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Sv-e9-wzh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="149.59999999999999" y="906.29685157421295"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Cell Controller-->
         <scene sceneID="jzL-MI-603">
             <objects>
-                <viewController id="SIL-Xb-pZZ" sceneMemberID="viewController">
+                <viewController id="SIL-Xb-pZZ" customClass="TableViewCellController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gus-97-RF7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,6 +165,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="d6C-xO-Nan"/>
+        <segue reference="kqA-9w-PQD"/>
+        <segue reference="Oqt-6v-ZYY"/>
     </inferredMetricsTieBreakers>
 </document>
