@@ -11,6 +11,7 @@
 		3B19CBFB1FA6DA000065DB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B19CBF91FA6DA000065DB51 /* Main.storyboard */; };
 		3B19CBFD1FA6DA000065DB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B19CBFC1FA6DA000065DB51 /* Assets.xcassets */; };
 		3B19CC001FA6DA000065DB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B19CBFE1FA6DA000065DB51 /* LaunchScreen.storyboard */; };
+		3B3B5EC91FB262A700A62BD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3B5EC81FB262A700A62BD2 /* GoogleService-Info.plist */; };
 		3B3F19781FAA93CD000B9CBC /* adidas.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3F19771FAA93CD000B9CBC /* adidas.png */; };
 		3BE8F6CE1FA9900400CC2ACC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE8F6CD1FA9900400CC2ACC /* LoginViewController.swift */; };
 		3BE8F6D01FA9907B00CC2ACC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE8F6CF1FA9907B00CC2ACC /* TableViewController.swift */; };
@@ -24,6 +25,7 @@
 		3BE8F6E71FAA92D700CC2ACC /* dc.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6E01FAA92D700CC2ACC /* dc.png */; };
 		3BE8F6E91FAA92D700CC2ACC /* vans.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6E21FAA92D700CC2ACC /* vans.png */; };
 		3BE8F6EA1FAA92D700CC2ACC /* converse.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8F6E31FAA92D700CC2ACC /* converse.png */; };
+		66BDDFDF2AB855B4EDAEB286 /* Pods_Zapatos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1B80C956705C492C09B9C8 /* Pods_Zapatos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		3B19CBFC1FA6DA000065DB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B19CBFF1FA6DA000065DB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B19CC011FA6DA000065DB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3B5EC81FB262A700A62BD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B3F19771FAA93CD000B9CBC /* adidas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adidas.png; path = Zapatos/Imgs/adidas.png; sourceTree = SOURCE_ROOT; };
 		3BE8F6CD1FA9900400CC2ACC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BE8F6CF1FA9907B00CC2ACC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		3BE8F6E01FAA92D700CC2ACC /* dc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dc.png; path = Zapatos/Imgs/dc.png; sourceTree = SOURCE_ROOT; };
 		3BE8F6E21FAA92D700CC2ACC /* vans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vans.png; path = Zapatos/Imgs/vans.png; sourceTree = SOURCE_ROOT; };
 		3BE8F6E31FAA92D700CC2ACC /* converse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = converse.png; path = Zapatos/Imgs/converse.png; sourceTree = SOURCE_ROOT; };
+		511D094350696C114CE4BCC2 /* Pods-Zapatos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zapatos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zapatos/Pods-Zapatos.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1B80C956705C492C09B9C8 /* Pods_Zapatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zapatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43AEEF796375D2BA6A76AB8 /* Pods-Zapatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zapatos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zapatos/Pods-Zapatos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BDDFDF2AB855B4EDAEB286 /* Pods_Zapatos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,8 @@
 			children = (
 				3B19CBF41FA6DA000065DB51 /* Zapatos */,
 				3B19CBF31FA6DA000065DB51 /* Products */,
+				6BD39B972AE1AD7042DA96B8 /* Pods */,
+				A45F08B37C1171A975F48016 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +94,7 @@
 				3B19CBFC1FA6DA000065DB51 /* Assets.xcassets */,
 				3B19CBFE1FA6DA000065DB51 /* LaunchScreen.storyboard */,
 				3B19CC011FA6DA000065DB51 /* Info.plist */,
+				3B3B5EC81FB262A700A62BD2 /* GoogleService-Info.plist */,
 			);
 			path = Zapatos;
 			sourceTree = "<group>";
@@ -141,6 +151,23 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		6BD39B972AE1AD7042DA96B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				511D094350696C114CE4BCC2 /* Pods-Zapatos.debug.xcconfig */,
+				E43AEEF796375D2BA6A76AB8 /* Pods-Zapatos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A45F08B37C1171A975F48016 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A1B80C956705C492C09B9C8 /* Pods_Zapatos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B19CC041FA6DA000065DB51 /* Build configuration list for PBXNativeTarget "Zapatos" */;
 			buildPhases = (
+				13AD5C683DF0FC80FF7BBBD4 /* [CP] Check Pods Manifest.lock */,
 				3B19CBEE1FA6DA000065DB51 /* Sources */,
 				3B19CBEF1FA6DA000065DB51 /* Frameworks */,
 				3B19CBF01FA6DA000065DB51 /* Resources */,
+				64A65DE7D4C4F6A523C16B1A /* [CP] Embed Pods Frameworks */,
+				F0A6E9523146D3A1644FAA07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +234,7 @@
 				3B19CC001FA6DA000065DB51 /* LaunchScreen.storyboard in Resources */,
 				3BE8F6E41FAA92D700CC2ACC /* nike.png in Resources */,
 				3B3F19781FAA93CD000B9CBC /* adidas.png in Resources */,
+				3B3B5EC91FB262A700A62BD2 /* GoogleService-Info.plist in Resources */,
 				3BE8F6E61FAA92D700CC2ACC /* newbalance.jpg in Resources */,
 				3BE8F6EA1FAA92D700CC2ACC /* converse.png in Resources */,
 				3B19CBFD1FA6DA000065DB51 /* Assets.xcassets in Resources */,
@@ -214,6 +245,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13AD5C683DF0FC80FF7BBBD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zapatos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A65DE7D4C4F6A523C16B1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zapatos/Pods-Zapatos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zapatos/Pods-Zapatos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A6E9523146D3A1644FAA07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zapatos/Pods-Zapatos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B19CBEE1FA6DA000065DB51 /* Sources */ = {
@@ -360,6 +447,7 @@
 		};
 		3B19CC051FA6DA000065DB51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511D094350696C114CE4BCC2 /* Pods-Zapatos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +462,7 @@
 		};
 		3B19CC061FA6DA000065DB51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43AEEF796375D2BA6A76AB8 /* Pods-Zapatos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
