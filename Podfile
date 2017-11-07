@@ -7,4 +7,6 @@ target 'Zapatos' do
 
   # Pods for Zapatos
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 end
