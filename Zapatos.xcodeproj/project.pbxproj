@@ -87,10 +87,10 @@
 		3B19CBF41FA6DA000065DB51 /* Zapatos */ = {
 			isa = PBXGroup;
 			children = (
+				7C5290561FB2E66800D03B43 /* Model */,
 				3BE8F6DC1FAA92C100CC2ACC /* imgs */,
 				3B19CC081FA6DA3E0065DB51 /* View */,
 				3B19CC071FA6DA220065DB51 /* Controller */,
-				3B19CC091FA6DA490065DB51 /* Model */,
 				3B19CBFC1FA6DA000065DB51 /* Assets.xcassets */,
 				3B19CBFE1FA6DA000065DB51 /* LaunchScreen.storyboard */,
 				3B19CC011FA6DA000065DB51 /* Info.plist */,
@@ -118,13 +118,6 @@
 				3B19CBF91FA6DA000065DB51 /* Main.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		3B19CC091FA6DA490065DB51 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		3BE8F6D91FA9951F00CC2ACC /* Cells */ = {
@@ -158,6 +151,13 @@
 				E43AEEF796375D2BA6A76AB8 /* Pods-Zapatos.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C5290561FB2E66800D03B43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A45F08B37C1171A975F48016 /* Frameworks */ = {
