@@ -10,7 +10,9 @@ import UIKit
 class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var zapatosTableView: UITableView!
-    
+    let textArray = ["Vans", "Converse", "Nike", "Adidas", "DC", "NewBalance", "Skechers"]
+    let priceArray = ["$60", "$60", "$70", "$70", "$60", "$80", "$80"]
+    let imagesArray = [UIImage(named:"vans.png"), UIImage(named:"converse.png"), UIImage(named:"nike.png"), UIImage(named:"adidas.png"), UIImage(named:"dc.png"), UIImage(named:"newbalance.jpg"), UIImage(named:"skechers.png")]
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,9 +29,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "zapatoCell", for: indexPath) as! ZapatoTableViewCell
         
-        let textArray = ["Vans", "Converse", "Nike", "Adidas", "DC", "NewBalance", "Skechers"]
-        let priceArray = ["$60", "$60", "$70", "$70", "$60", "$80", "$80"]
-        let imagesArray = [UIImage(named:"vans.png"), UIImage(named:"converse.png"), UIImage(named:"nike.png"), UIImage(named:"adidas.png"), UIImage(named:"dc.png"), UIImage(named:"newbalance.jpg"), UIImage(named:"skechers.png")]
+        
         
         cell.zapatoTitle.text = textArray[indexPath.row]
         cell.zapatoPrice.text = priceArray[indexPath.row]
@@ -49,6 +49,10 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         zapatosTableView.rowHeight = UITableViewAutomaticDimension
         zapatosTableView.estimatedRowHeight = 100
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "goToBuy", sender: textArray[indexPath.row])
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -56,14 +60,22 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let detalles = segue.destination as! TableCellViewController
+        
+        detalles.data = sender as! String
     }
-    */
+  
+    
+    
+    
+    
+    
+    
+    
+    
 
 }

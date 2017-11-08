@@ -8,10 +8,12 @@
 import UIKit
 
 class TableCellViewController: UIViewController {
-
+    @IBOutlet weak var labelTextField: UILabel!
+    
+    var data = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        labelTextField.text = data
         // Do any additional setup after loading the view.
     }
 
@@ -21,14 +23,5 @@ class TableCellViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
