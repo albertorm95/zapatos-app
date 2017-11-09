@@ -8,17 +8,18 @@
 import UIKit
 
 class TableCellViewController: UIViewController {
+    
     @IBOutlet weak var labelTextField: UILabel!
     @IBOutlet weak var shoeImage: UIImageView!
+    @IBOutlet weak var priceTextField: UILabel!
     
-    var data = ""
-    var shoePhoto: UIImage?
+    var theShoes: TheShoes?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        labelTextField.text = data
-        shoeImage.image = shoePhoto
-        // Do any additional setup after loading the view.
+        shoeImage?.image = UIImage(named: theShoes!.picture)
+        labelTextField?.text = theShoes!.name
+        priceTextField?.text = theShoes!.price
     }
 
     override func didReceiveMemoryWarning() {

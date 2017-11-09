@@ -146,7 +146,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77v-1u-DEQ">
-                                <rect key="frame" x="134" y="400" width="106" height="52"/>
+                                <rect key="frame" x="134" y="492" width="106" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Comprar">
@@ -161,6 +161,13 @@
                                 <rect key="frame" x="67" y="184" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRg-na-dhS">
+                                <rect key="frame" x="104" y="363" width="167" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ARt-VN-Z7c"/>
@@ -168,6 +175,7 @@
                     <navigationItem key="navigationItem" id="dWS-z0-3bg"/>
                     <connections>
                         <outlet property="labelTextField" destination="7vP-Ld-y3u" id="GQn-Cr-7WU"/>
+                        <outlet property="priceTextField" destination="gRg-na-dhS" id="LvW-uQ-dni"/>
                         <outlet property="shoeImage" destination="zlP-Mp-IXd" id="JBE-gH-ac3"/>
                     </connections>
                 </viewController>
@@ -195,6 +203,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="DXW-St-7wY"/>
         <segue reference="Oqt-6v-ZYY"/>
     </inferredMetricsTieBreakers>
 </document>
