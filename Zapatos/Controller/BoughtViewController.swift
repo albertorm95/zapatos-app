@@ -8,7 +8,7 @@
 import UIKit
 
 class BoughtViewController: UIViewController {
-
+    //MARK: IBOutlet
     override func viewDidLoad() {
         super.viewDidLoad()
 

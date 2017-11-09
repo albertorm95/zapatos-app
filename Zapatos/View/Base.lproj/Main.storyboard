@@ -29,7 +29,7 @@
                                     <color key="titleColor" red="1" green="0.53866697823351339" blue="0.43062281175190709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2Ve-9o-Hyk" kind="show" id="d6C-xO-Nan"/>
+                                    <action selector="logInButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsT-B3-vKK"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kS2-pJ-KXG">
@@ -57,6 +57,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="1P5-3E-8Fa" id="LAE-uG-fDv"/>
+                        <outlet property="passwordTextField" destination="M2P-ou-ih9" id="8lr-Q3-e8J"/>
+                        <segue destination="2Ve-9o-Hyk" kind="show" identifier="goToShoes" id="XUg-pH-myE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -203,7 +208,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DXW-St-7wY"/>
-        <segue reference="Oqt-6v-ZYY"/>
+        <segue reference="XUg-pH-myE"/>
     </inferredMetricsTieBreakers>
 </document>

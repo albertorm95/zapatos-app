@@ -16,7 +16,7 @@ struct TheShoes {
 class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var theShoes = [TheShoes]()
-    
+    //MARK: IBOutlet
     @IBOutlet weak var zapatosTableView: UITableView!
     
     override func viewDidLoad() {
@@ -39,14 +39,8 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         TheShoes(name: "Nike",  picture: "nike.png", price: "$70" ),
         TheShoes(name: "Adidas",  picture: "adidas.png", price: "$70" ),
         TheShoes(name: "DC",  picture: "dc.png", price: "$60" ),
-        TheShoes(name: "NewBalance",  picture: "newbalance.png", price: "$80" ),
+        TheShoes(name: "NewBalance",  picture: "newbalance.jpg", price: "$80" ),
         TheShoes(name: "Skechers",  picture: "skechers.png", price: "$80" )]
-        
-        
-        
-//        var textArray = ["Vans", "Converse", "Nike", "Adidas", "DC", "NewBalance", "Skechers"]
-//        var priceArray = ["$60", "$60", "$70", "$70", "$60", "$80", "$80"]
-//        var imagesArray = [UIImage(named:"vans.png"), UIImage(named:"converse.png"), UIImage(named:"nike.png"), UIImage(named:"adidas.png"), UIImage(named:"dc.png"), UIImage(named:"newbalance.jpg"), UIImage(named:"skechers.png")]
     }
     
     //MARK: - TableView Methods
@@ -55,11 +49,6 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let cell = tableView.dequeueReusableCell(withIdentifier: "zapatoCell", for: indexPath) as! ZapatoTableViewCell
         cell.configurateCell(theShoes[indexPath.row])
         return cell
-        
-        
-//        cell.zapatoTitle.text = textArray[indexPath.row]
-//        cell.zapatoPrice.text = priceArray[indexPath.row]
-//        cell.zapatoImage.image = imagesArray[indexPath.row]
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -90,9 +79,5 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
             destinationVC.theShoes = theShoes[indexPath!.row]
             
         }
-        
-//        let detalles = segue.destination as! TableCellViewController
-//        detalles.data = sender as! String
-
     }
 }

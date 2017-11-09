@@ -8,7 +8,7 @@
 import UIKit
 
 class TableCellViewController: UIViewController {
-    
+    //MARK: IBOutlet
     @IBOutlet weak var labelTextField: UILabel!
     @IBOutlet weak var shoeImage: UIImageView!
     @IBOutlet weak var priceTextField: UILabel!
