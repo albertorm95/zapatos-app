@@ -11,7 +11,7 @@ import GoogleSignIn
 import SVProgressHUD
 
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, GIDSignInUIDelegate {
 
     //MARK: IBOutlets
     @IBOutlet weak var emailTextField: UITextField!
@@ -19,8 +19,21 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setuptGoogleButton()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    fileprivate func setuptGoogleButton(){
+        //Add Google Log In Button
+        let googleButton = GIDSignInButton()
+        googleButton.frame = CGRect(x: 60, y: 500, width: view.frame.width - 115, height: 50)
+        view.addSubview(googleButton)
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
