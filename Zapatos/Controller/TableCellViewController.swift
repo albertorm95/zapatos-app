@@ -8,13 +8,18 @@
 import UIKit
 
 class TableCellViewController: UIViewController {
+    //MARK: IBOutlet
     @IBOutlet weak var labelTextField: UILabel!
+    @IBOutlet weak var shoeImage: UIImageView!
+    @IBOutlet weak var priceTextField: UILabel!
     
-    var data = ""
+    var theShoes: TheShoes?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        labelTextField.text = data
-        // Do any additional setup after loading the view.
+        shoeImage?.image = UIImage(named: theShoes!.picture)
+        labelTextField?.text = theShoes!.name
+        priceTextField?.text = theShoes!.price
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +27,9 @@ class TableCellViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func buyButtom(_ sender: Any) {
+        
+    }
+    
 
 }
